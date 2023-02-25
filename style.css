@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #efefef;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+}
+
+.detel p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: auto;
+    height: 80%;
+    position: absolute;
+    bottom: 50px;
+    right: 80px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s,left 1s;
+}
+
+.images:hover .Sunil{
+    bottom: 40px;
+}
+ 
+.oxy{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.oxy h1{
+    margin-top: 8%;
+    margin-left: 0;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.oxy button{
+    font-size: 50px;
+    margin-left: 35px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+.oxy p{
+    height: 100%;
+    font-size: 10px;
+    color: #555;
+    line-height: 22px;
+}
+.abc h1{
+    margin-top: 8%;
+    margin-left: 8%;
+    font-weight: bold;
+    font-size: 40px;
+}
+.abc h2{
+    margin-top: 5%;
+    margin-left: 8%;
+    font-weight: bold;
+    font-size: 30px;
+}
+.abc p{
+    margin-left: 8%;
+    line-height: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white; 
+  }
